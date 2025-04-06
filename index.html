@@ -1,127 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Baratie</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+
+    <!-- Header -->
     <div class="header">
         <nav>
             <h1>Baratie</h1>
-        <ul>
-            <li>Home |</li>
-            <li>Recipe |</li>
-            <li>Contact</li>
-        </ul>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipe</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </div>
-    <div class="searchbar">
-        <input type="search" placeholder="Search here">
+
+    <!-- Search Bar -->
+    <div class="searchbar" id="home">
+        <input type="search" placeholder="Search here" />
     </div>
-    <div class="foods">
+
+    <!-- Food Items Grid -->
+    <div class="foods" id="recipes">
+
         <div class="box">
-            <img src="Alfredo sauce.jpg">
+            <img src="Alfredo sauce.jpg" alt="Alfredo Sauce" />
             <h3>Alfredo Sauce</h3>
-            <p>Enjoy this classic Italian creamy pasta sauce folded into cooked pasta. It's been adapted over the years to include double cream, making it rich, unctuous, and delicious.</p>
+            <p>This creamy and buttery sauce is made with Parmesan cheese, garlic, and heavy cream. Perfect for fettuccine and ready in under 15 minutes.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Aubergine & chilli tagliolini.jpg">
+            <img src="Aubergine & chilli tagliolini.jpg" alt="Aubergine & Chilli Tagliolini" />
             <h3>Aubergine & Chilli Tagliolini</h3>
-            <p>Taglioni is a thin, flat ribbon pasta, similar to tagliatelle. If you can't find it, use linguine for this vegetarian pasta dish instead.</p>
-            <button>Order Now</button>      
+            <p>Thin strands of pasta tossed with roasted aubergine, garlic, and red chilli flakes. Finished with olive oil and Parmesan for a kick of heat and flavor.</p>
+            <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Caprese salad (tomato and mozzarella salad).jpg">
-            <h3>Caprese Salad (Tomato and Mozzarella Salad)</h3>
-            <p>Make this classic Italian tricolore salad for a starter or side. It's incredibly simple but, when made with perfectly ripe tomatoes, is a real delight.</p>
-            <button>Order Now</button>      
+            <img src="Caprese salad (tomato and mozzarella salad).jpg" alt="Caprese Salad" />
+            <h3>Caprese Salad</h3>
+            <p>Fresh buffalo mozzarella, juicy tomatoes, and basil leaves drizzled with extra virgin olive oil and balsamic glaze. A classic Italian starter.</p>
+            <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Farinata.jpg">
+            <img src="Farinata.jpg" alt="Farinata" />
             <h3>Farinata</h3>
-            <p>Make these Italian savoury pancakes using chickpea flour – they're an alternative option for Pancake Day and are served in wedges with a sprinkle of sea salt.</p>
+            <p>A savory pancake made from chickpea flour, olive oil, and rosemary. Crispy on the outside, soft on the inside – a perfect street snack from Liguria.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Herby lamb fillet with caponata.jpg">
-            <h3>Herby Lamb Fillet with Caponata</h3>
-            <p>Tick off all 5 of your 5 a day with this super-healthy Sunday roast. To make it vegetarian, omit the lamb and add chickpeas to the caponata.</p>
+            <img src="Herby lamb fillet with caponata.jpg" alt="Herby Lamb Fillet" />
+            <h3>Herby Lamb Fillet</h3>
+            <p>Juicy lamb fillet seasoned with rosemary and thyme, served with Sicilian-style caponata – a tangy mix of eggplant, olives, and capers.</p>
             <button>Order Now</button>
         </div>
-        
+
         <div class="box">
-            <img src="Lasagne soup.jpg">
+            <img src="Lasagne soup.jpg" alt="Lasagne Soup" />
             <h3>Lasagne Soup</h3>
-            <p>Whip up this easy soup on cold days – it has all the moreish flavours of lasagne, including cherry tomatoes, sheets of pasta, and molten cheese.</p>
-            <button>Order Now</button>      
+            <p>A deconstructed lasagna in soup form with ground meat, pasta sheets, tomato broth, and a dollop of ricotta and mozzarella cheese.</p>
+            <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Lighter chicken cacciatore.jpg">
+            <img src="Lighter chicken cacciatore.jpg" alt="Chicken Cacciatore" />
             <h3>Lighter Chicken Cacciatore</h3>
-            <p>The classic Italian 'hunter's stew' gets a healthy makeover, with low-fat chicken breasts, prosciutto, and a rich herby tomato sauce.</p>
+            <p>A healthier take on the hunter-style stew with braised chicken, bell peppers, tomatoes, and herbs. Full flavor, fewer calories.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Pasta alla norma.jpg">
+            <img src="Pasta alla norma.jpg" alt="Pasta alla Norma" />
             <h3>Pasta alla Norma</h3>
-            <p>Try this easy version of an alla norma, which uses roast aubergine instead of fried. It's then tossed with spaghetti and a rich tomato and basil sauce.</p>
+            <p>Traditional Sicilian dish of pasta with fried eggplant, rich tomato sauce, and salted ricotta cheese, finished with fresh basil.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="spaghetti-puttanesca.jpg">
+            <img src="spaghetti-puttanesca.jpg" alt="Spaghetti Puttanesca" />
             <h3>Spaghetti Puttanesca</h3>
-            <p>Cook up this classic sauce in one pan, then toss with spaghetti for a simple midweek meal. It's budget-friendly too, making it a great meal for the family.</p>
+            <p>A quick and flavorful dish featuring olives, anchovies, capers, and tomatoes. Bursting with bold and salty Mediterranean flavor.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Spinach crespolini.jpg">
+            <img src="Spinach crespolini.jpg" alt="Spinach Crespolini" />
             <h3>Spinach Crespolini</h3>
-            <p>Enjoy these healthy spelt pancakes filled with spinach, ricotta, and tomato – they deliver all of your 5-a-day, plus spinach supports bone and eye health.</p>
+            <p>Italian-style crepes filled with spinach and ricotta, baked in a fresh tomato sauce and topped with melted cheese.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Blackberry zabaglione.jpg">
+            <img src="Blackberry zabaglione.jpg" alt="Blackberry Zabaglione" />
             <h3>Blackberry Zabaglione</h3>
-            <p>Italian zabaglione is lovely rippled with a few crushed berries for a quick, outstanding dessert.</p>
+            <p>A silky custard dessert made with egg yolks, sugar, and Marsala wine, topped with fresh blackberries and mint.</p>
             <button>Order Now</button>
         </div>
 
         <div class="box">
-            <img src="Strawberry panna cotta.jpg">
+            <img src="Strawberry panna cotta.jpg" alt="Strawberry Panna Cotta" />
             <h3>Strawberry Panna Cotta</h3>
-            <p>Serve this creamy set Italian dessert with a top layer of fresh strawberry sauce and our homemade salted almond snaps on the side.</p>
+            <p>Velvety panna cotta infused with vanilla and topped with a sweet strawberry compote. A beautiful and light dessert to end your meal.</p>
             <button>Order Now</button>
         </div>
+
     </div>
 
-    <div class="contact">
+    <!-- About Us Section -->
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>Baratie</strong> – where Italian heritage meets heartwarming flavor. Inspired by the rich culinary traditions of coastal Italy and a sprinkle of anime charm, Baratie is more than just a restaurant – it's an experience. From rustic pasta dishes to elegant desserts, each item on our menu is crafted with the freshest ingredients and a love for bold, authentic taste.
+            <br/><br/>
+            At Baratie, we believe food should tell a story. Our chefs draw from centuries of tradition, infusing every plate with passion and creativity. Whether you’re enjoying a romantic evening or grabbing lunch with friends, Baratie’s ambiance and flavors are here to make memories. 
+            <br/><br/>
+            Sit back, take a bite, and sail away into the warmth of Italian comfort cuisine. Buon appetito!
+        </p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
         <h2>Contact Us</h2>
         <center>
             <table>
                 <tr>
-                    <td>Name:</td><td><input type="text" placeholder="Name" ></td>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Name" /></td>
                 </tr>
                 <tr>
-                    <td>Age:</td><td><input type="number" placeholder="Age"></td>
+                    <td>Age:</td>
+                    <td><input type="number" placeholder="Age" /></td>
                 </tr>
                 <tr>
-                    <td>Email:</td><td><input type="email" placeholder="Email"></td>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="Email" /></td>
                 </tr>
             </table>
             <button>Send</button>
         </center>
     </div>
+
 </body>
 </html>
